@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  color: #f1f1ef;
+}
+
+/* headings */
+
+h1, h2 {
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  color: #f1f1ef
+}
