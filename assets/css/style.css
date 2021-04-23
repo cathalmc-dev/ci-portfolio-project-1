@@ -100,9 +100,18 @@ header {
 
 #tagline h2, h3 {
   text-align: center;
+  color: #f1f1ef;
 }
 
 #tagline h2 {
   text-align: center;
   margin-top: 25px;
+}
+
+#chevron {
+  font-size: 350%;
+  position: absolute;
+  left: 50%;
+  bottom: 60px;
+  color: #f1f1ef;
 }
