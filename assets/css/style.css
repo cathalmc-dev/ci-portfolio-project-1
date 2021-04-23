@@ -29,7 +29,7 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 3;
+  z-index: 2;
 }
 
 #header-logo {
@@ -73,7 +73,7 @@ header {
   width: 100%;
   /* margin-top: -150px; */
   position: relative;
-  z-index: -1;
+  z-index: 1;
 }
 
 #hero-image {
@@ -118,7 +118,7 @@ header {
   /* animates the bobbing effect for the chevron */
   animation-name: chevron-bob;
   animation-delay: 2s;
-  animation-duration: 0.8s;
+  animation-duration: 0.5s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
@@ -131,4 +131,34 @@ header {
   to{
     bottom: 30px;
   }
+}
+
+/* about section */
+
+#about {
+  height: 300px;
+  width: 50%;
+  margin: 50px auto;
+}
+
+#about h2 {
+  font-size: 200%;
+  font-weight: 300;
+  text-transform: none;
+  letter-spacing: 0.5px;
+  margin-bottom: 10px;
+}
+
+#about p {
+  line-height: 30px;
+  margin-bottom: 5px;
+}
+
+hr {
+  width: 110%;
+  height: 1px;
+  background-color: #f1f1ef;
+  margin: 10px 0;
+  position: relative;
+  left: -5%;
 }
