@@ -25,6 +25,7 @@ h1, h2 {
 header {
   height: 150px;
   border-bottom: 1px solid #f1f1ef;
+  z-index: 1;
 }
 
 #header-logo {
@@ -60,3 +61,21 @@ header {
   border-bottom: 1px solid #f1f1ef;
 }
 
+hr {
+  z-index: 1;
+}
+
+/* hero image */
+
+#hero-outer {
+  height: 1024px;
+  width: 100%;
+  margin-top: -150px;
+  z-index: -1;
+}
+
+#hero-image {
+  height: 1024px;
+  width: 100%;
+  background: url("../images/hero-image.jpg");
+}
