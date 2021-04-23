@@ -10,12 +10,53 @@ body {
   font-family: Montserrat, sans-serif;
   font-weight: 400;
   color: #f1f1ef;
+  background-color: #000;
 }
 
 /* headings */
 
 h1, h2 {
   font-family: Roboto, sans-serif;
-  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 4px;
   color: #f1f1ef
 }
+
+header {
+  height: 150px;
+  border-bottom: 1px solid #f1f1ef;
+}
+
+#header-logo {
+  float: left;
+  margin-left: 30px;
+}
+
+/* navigation links */
+
+#header-nav {
+  font-size: 150%;
+  letter-spacing: 4px;
+  float: right;
+  padding-top: 40px;
+}
+
+#header-logo, #header-nav {
+  line-height: 75px;
+}
+
+#header-nav li {
+  float: left;
+  list-style-type: none;
+  margin-right: 30px;
+}
+
+#header-nav a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#header-nav a:hover {
+  border-bottom: 1px solid #f1f1ef;
+}
+
