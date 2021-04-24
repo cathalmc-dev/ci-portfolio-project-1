@@ -104,6 +104,13 @@ header {
   font-family: Montserrat, sans-serif;
 }
 
+#tagline hr {
+  background-color: #f1f1ef;
+  height: 1px;
+  width: 80%;
+  margin: 2px auto;
+}
+
 #tagline h2 {
   font-family: Roboto, sans-serif;
   margin-top: 25px;
@@ -137,9 +144,11 @@ header {
 /* about section */
 
 #about {
-  height: 350px;
-  width: 50%;
+  max-height: 350px;
+  max-width: 50%;
   margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 #about h2 {
