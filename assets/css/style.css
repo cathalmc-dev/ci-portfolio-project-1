@@ -181,3 +181,46 @@ hr {
   height: 45%;
   margin-bottom: 10px;
 }
+
+/* footer */
+
+footer {
+  height: 200px;
+  background-color: #421E13;
+  text-align: center;
+}
+
+footer div {
+  width: 33%;
+  margin: 0 auto;
+}
+
+footer h2, footer p {
+  margin-bottom: 10px;
+}
+
+#footer-outer {
+  height: 200px;
+  width: 65%;
+  padding-top: 30px;
+}
+
+#footer-contact {
+  float: left
+}
+
+#footer-logo {
+  float: right;
+  margin-top: -150px;
+}
+
+.social-media {
+  font-size: 180%
+  color: #f1f1ef;
+}
+
+.social-media > li {
+  display: inline;
+  list-style-type: none;
+}
+
