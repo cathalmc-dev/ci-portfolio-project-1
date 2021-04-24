@@ -185,9 +185,10 @@ hr {
 /* footer */
 
 footer {
-  height: 200px;
+  height: 250px;
   background-color: #421E13;
   text-align: center;
+  /* position: relative; */
 }
 
 footer div {
@@ -199,28 +200,38 @@ footer h2, footer p {
   margin-bottom: 10px;
 }
 
+.footer-item {
+  margin-top: 50px;
+  display: inline-block;
+}
+
 #footer-outer {
-  height: 200px;
+  height: 250px;
   width: 65%;
-  padding-top: 30px;
+  /* position: absolute;
+  margin: 0 auto; */
 }
 
 #footer-contact {
-  float: left
+  float: left;
 }
 
 #footer-logo {
   float: right;
-  margin-top: -150px;
+  margin-top: 40px;
 }
 
 .social-media {
-  font-size: 180%
-  color: #f1f1ef;
+  font-size: 180%;
 }
 
-.social-media > li {
+.social-media li {
   display: inline;
   list-style-type: none;
+  color: #f1f1ef;
+}
+.social-media a {
+  text-decoration: none;
+  color: inherit;
 }
 
