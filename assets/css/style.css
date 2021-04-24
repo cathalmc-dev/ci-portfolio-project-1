@@ -101,10 +101,11 @@ header {
 #tagline h2, h3 {
   text-align: center;
   color: #f1f1ef;
+  font-family: Montserrat, sans-serif;
 }
 
 #tagline h2 {
-  text-align: center;
+  font-family: Roboto, sans-serif;
   margin-top: 25px;
 }
 
@@ -115,7 +116,7 @@ header {
   bottom: 40px;
   color: #f1f1ef;
 
-  /* animates the bobbing effect for the chevron */
+  /* animates the bobbing effect for the chevron*/
   animation-name: chevron-bob;
   animation-delay: 2s;
   animation-duration: 0.5s;
