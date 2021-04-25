@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,63 +11,129 @@
   <link rel="stylesheet" href="assets/css/style.css">
   <title>Candlelight Bistro</title>
 </head>
+
 <body>
   <header>
-    <header>
-      <h1>
-        <a href="index.html">
-          <img src="assets/images/Logo.png" alt="candlelight bistro logo" id="header-logo">
+    <h1>
+      <a href="index.html">
+        <img src="assets/images/Logo.png" alt="candlelight bistro logo" id="header-logo">
+      </a>
+    </h1>
+    <nav>
+      <ul id="header-nav-full">
+        <li>
+          <a href="menus.html">Menus</a>
+        </li>
+        <li>
+          <a href="reserve.html">Reservations</a>
+        </li>
+        <li>
+          <a href="voucher.html">Voucher</a>
+        </li>
+        <li>
+          <a href="contact.html" class="active">Contact</a>
+        </li>
+      </ul>
+      <div id="header-nav-small">
+        <a href="#modal" class="modal-open">
+          <i class="fas fa-bars"></i>
         </a>
-      </h1>
-      <nav>
-        <ul id="header-nav-full">
+      </div>
+      <div class="modal" id="modal">
+        <div class="modal-content">
+          <a href="#" class="modal-close">&times;</a>
+          <ul>
+            <li>
+              <a href="menus.html">Menus</a>
+            </li>
+            <li>
+              <a href="reserve.html">Reservations</a>
+            </li>
+            <li>
+              <a href="voucher.html">Voucher</a>
+            </li>
+            <li>
+              <a href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div id="page-header">
+      <h2>Contact</h2>
+    </div>
+  </header>
+  <section>
+    <div id="contact-text">
+      <h2>Address</h2>
+      <p>
+        62 O'Connell Street Upper,<br>North City,<br>Dublin 1
+      </p>
+      <h2>Telephone</h2>
+      <p>
+        +353 86 195 1846
+      </p>
+      <h2>Opening Hours</h2>
+      <p>
+        Open at 5.30pm every Wednesday, Thursday, Friday and Saturday<br>
+        Open at 3.30pm on Sunday
+      </p>
+      <p class="covid">
+        In accordance with government guidelines we are closed
+      </p>
+      <p class="covid">
+        We are taking reservations for july in the hope restrictions will be eased
+      </p>
+      <h2>Location</h2>
+    </div>
+    <div id="iframe">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2381.6087155347936!2d-6.263108484023282!3d53.350260182119015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e8419f57fc7%3A0x8d89ea455e1c75c7!2s62%20O&#39;Connell%20Street%20Upper%2C%20North%20City%2C%20Dublin%2C%20D01%20TV20!5e0!3m2!1sen!2sie!4v1619385818612!5m2!1sen!2sie" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+        <p>Your browser does not support iframes. Please refer to the address above.</p>
+      </iframe>
+    </div>
+  </section>
+  <footer id="footer">
+    <div id="footer-bg"></div>
+    <div id="footer-outer">
+      <div id="footer-contact" class="footer-item">
+        <h2>Contact</h2>
+        <p>
+          62 O'Connell Street Upper,<br>North City,<br>Dublin 1
+        </p>
+        <p>
+          <i class="fas fa-phone-alt"></i> +353 86 195 1846
+        </p>
+        <ul class="social-media">
           <li>
-            <a href="menus.html">Menus</a>
+            <a href="https://facebook.com/">
+              <i class="fab fa-facebook"></i>
+            </a>
           </li>
           <li>
-            <a href="reserve.html">Reservations</a>
-          </li>
-          <li>
-            <a href="voucher.html">Voucher</a>
-          </li>
-          <li>
-            <a href="contact.html" class="active">Contact</a>
+            <a href="https://instagram.com/">
+              <i class="fab fa-instagram"></i>
+            </a>
           </li>
         </ul>
-        <div id="header-nav-small">
-          <a href="#modal" class="modal-open">
-            <i class="fas fa-bars"></i>
-          </a>
-        </div>
-        <div class="modal" id="modal">
-          <div class="modal-content">
-            <a href="#" class="modal-close">&times;</a>
-            <ul>
-              <li>
-                <a href="menus.html">Menus</a>
-              </li>
-              <li>
-                <a href="reserve.html">Reservations</a>
-              </li>
-              <li>
-                <a href="voucher.html">Voucher</a>
-              </li>
-              <li>
-                <a href="contact.html">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <div id="page-header">
-        <h2>Contact</h2>
       </div>
-  </header>
-  <section>Hero image</section>
-  <section>About the restaurant</section>
-  <section>Gallery</section>
-  <footer>Site footer</footer>
-   <!-- font awesome script -->
-   <script src="https://kit.fontawesome.com/514e452847.js" crossorigin="anonymous"></script>
+      <div id="footer-hours" class="footer-item">
+        <h2>Open Hours</h2>
+        <p>
+          Wednesday - Saturday<br>From 5.30pm (last orders at 9.45pm)
+        </p>
+        <p>
+          Sunday<br>From 3.30pm (last orders 8.15pm)
+        </p>
+      </div>
+      <div id="footer-logo" class="footer-item">
+        <a href="index.html">
+          <img src="assets/images/Logo.png" alt="Candlelight bistro logo">
+        </a>
+      </div>
+    </div>
+  </footer>
+  <!-- font awesome script -->
+  <script src="https://kit.fontawesome.com/514e452847.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
