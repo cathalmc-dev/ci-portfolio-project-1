@@ -25,6 +25,16 @@ h1, h2 {
 header {
   height: 150px;
   border-bottom: 1px solid #f1f1ef;
+  background-color: #421E13;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+#index-header {
+  height: 150px;
+  border-bottom: 1px solid #f1f1ef;
   background-color: rgba(0, 0, 0, 0.5);
   position: fixed;
   top: 0;
@@ -190,6 +200,28 @@ header {
   display: inline-block;
   text-decoration: none;
   color: #f1f1ef;
+}
+
+#page-header {
+  height: 150px;
+  width: 100%;
+  background-color: #421E13;
+  position:absolute;
+  top:151px;
+  display: none;
+}
+
+#page-header h2 {
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 150px;
+  font-size: 250%;
+}
+
+@media screen and (max-width: 950px) {
+  #page-header {
+    display: block;
+  }
 }
 
 /* hero image */

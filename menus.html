@@ -12,11 +12,13 @@
 </head>
 <body>
   <header>
-    <a href="index.html">
-      <img src="assets/images/Logo.png" alt="candlelight bistro logo" id="header-logo">
-    </a>
+    <h1>
+      <a href="index.html">
+        <img src="assets/images/Logo.png" alt="candlelight bistro logo" id="header-logo">
+      </a>
+    </h1>
     <nav>
-      <ul id="header-nav">
+      <ul id="header-nav-full">
         <li>
           <a href="menus.html">Menus</a>
         </li>
@@ -30,6 +32,30 @@
           <a href="contact.html">Contact</a>
         </li>
       </ul>
+      <div id="header-nav-small">
+        <a href="#modal" class="modal-open">
+          <i class="fas fa-bars"></i>
+        </a>
+      </div>
+      <div class="modal" id="modal">
+        <div class="modal-content">
+          <a href="#" class="modal-close">&times;</a>
+          <ul>
+            <li>
+              <a href="menus.html">Menus</a>
+            </li>
+            <li>
+              <a href="reserve.html">Reservations</a>
+            </li>
+            <li>
+              <a href="voucher.html">Voucher</a>
+            </li>
+            <li>
+              <a href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
   </header>
   <section>Hero image</section>
