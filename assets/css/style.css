@@ -38,6 +38,14 @@ header {
   margin-top: 5px;
 }
 
+@media screen and (max-width: 400px) {
+  #header-logo {
+    height: 100px;
+    position: fixed;
+    top: 20px;
+  }
+}
+
 /* navigation links */
 
 #header-nav-full {
