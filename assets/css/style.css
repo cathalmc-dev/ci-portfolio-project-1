@@ -146,6 +146,10 @@ header {
   color: #252B32;
 }
 
+.modal a:active {
+  text-decoration: underline;
+}
+
 .modal-close {
   color: #252B32;
   font-size: 2em;
@@ -158,7 +162,7 @@ header {
   list-style-type: none;
   text-transform: uppercase;
   color: #252B32;
-  margin: 90px 60px;
+  margin: 50px 60px;
   line-height: 75px;
   position: relative;
   text-align: center;
@@ -182,9 +186,13 @@ header {
   height: 30vh;
  }
 
+  .modal-close {
+  top: .2em
+  }
+
   .modal-content ul {
     font-size: 100%;
-    margin: 40px 60px;
+    margin: 20px 60px;
     line-height: 50px;
   }
 }
@@ -192,8 +200,13 @@ header {
 @media screen and (max-width: 550px) {
   .modal-content ul {
     font-size: 85%;
-    margin: 40px 30px;
+    margin: 20px 0;
   }
+
+  .modal-close {
+    right: .5em;
+  }
+
 }
 
 .modal-open {
