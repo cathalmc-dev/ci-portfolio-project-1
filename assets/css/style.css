@@ -313,6 +313,16 @@ header {
   }
 }
 
+@media screen and (max-width: 750px) {
+  #photos {
+    column-count: 1;
+  }
+
+  .extra-photo {
+    display: none;
+  }
+}
+
 /* footer */
 
 footer {
@@ -332,8 +342,13 @@ footer h2, footer p {
 }
 
 .footer-item {
-  margin-top: 50px;
+  width: 33%;
+  margin: 50px auto 0;
   display: inline-block;
+}
+
+#footer-bg {
+  width: 100vw;
 }
 
 #footer-outer {
@@ -368,5 +383,7 @@ footer h2, footer p {
   #footer-outer {
     width: 100%;
   }
+
+  footer
 }
 
