@@ -40,32 +40,49 @@ header {
 
 /* navigation links */
 
-#header-nav {
+#header-nav-full {
   font-size: 150%;
   letter-spacing: 4px;
   float: right;
   padding-top: 40px;
 }
 
-#header-logo, #header-nav {
+#header-logo, #header-nav-full, #header-nav-small {
   line-height: 75px;
 }
 
-#header-nav li {
+#header-nav-full li {
   float: left;
   list-style-type: none;
   margin-right: 30px;
 }
 
-#header-nav a {
+#header-nav-full a {
   text-decoration: none;
   color: inherit;
 }
 
-#header-nav a:hover {
+#header-nav-full a:hover {
   border-bottom: 1px solid #f1f1ef;
 }
 
+#header-nav-small {
+  font-size: 400%;
+  padding-top: 40px;
+  visibility: hidden;
+  position: absolute;
+  right: 40px;
+}
+
+@media screen and (max-width: 950px) {
+  #header-nav-full {
+    visibility: hidden;
+  }
+
+  #header-nav-small {
+    visibility: visible;
+  }
+}
 /* hero image */
 
 #hero-outer {
