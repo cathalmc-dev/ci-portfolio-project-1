@@ -198,10 +198,9 @@ header {
 /* footer */
 
 footer {
-  height: 250px;
+  height: auto;
   background-color: #421E13;
   text-align: center;
-  /* position: relative; */
 }
 
 footer div {
@@ -221,8 +220,6 @@ footer h2, footer p {
 #footer-outer {
   height: 250px;
   width: 65%;
-  /* position: absolute;
-  margin: 0 auto; */
 }
 
 #footer-contact {
@@ -246,5 +243,11 @@ footer h2, footer p {
 .social-media a {
   text-decoration: none;
   color: inherit;
+}
+
+@media screen and (max-width: 1250px) {
+  #footer-outer {
+    width: 100%;
+  }
 }
 
