@@ -223,28 +223,6 @@ header {
   color: #f1f1ef;
 }
 
-#page-header {
-  height: 150px;
-  width: 100%;
-  background-color: #421E13;
-  position:absolute;
-  top:151px;
-  display: none;
-}
-
-#page-header h2 {
-  text-transform: uppercase;
-  text-align: center;
-  line-height: 150px;
-  font-size: 250%;
-}
-
-@media screen and (max-width: 950px) {
-  #page-header {
-    display: block;
-  }
-}
-
 /* hero image */
 
 #hero-outer {
@@ -462,14 +440,21 @@ footer h2, footer p {
 /* contact page */
 
   #contact-text {
-    margin-top: 150px;
+    margin: 125px auto 10px;
     padding: 50px 33%;
     text-align: left;
     line-height: 30px;
   }
 
   #contact-text h2 {
+    text-align: center;
+    font-size: 200%;
+  }
+
+  #contact-text h3 {
     margin: 10px 0;
+    text-align: left;
+    font-size: 150%;
   }
 
   #contact-text p {
@@ -482,7 +467,7 @@ footer h2, footer p {
 
   #iframe {
     display: block;
-    margin: -50px auto 0;
+    margin: -50px auto 20px;
     width: 33%;
     height: auto;
   }
