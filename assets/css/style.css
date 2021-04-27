@@ -474,10 +474,14 @@ footer h2, footer p {
 
   /* menu page */
 
+  #menu-content {
+    padding-top: 50px;
+  }
+
   #menu-select-container {
     width: 40%;
     margin: 30px auto 0;
-    height: 60px;
+    height: 50px;
   }
 
   .menu-select {
@@ -487,4 +491,18 @@ footer h2, footer p {
     padding-top: 20px;
     background-color: #421E13;
     height: inherit;
+  }
+
+  .menu {
+    background-color: #f1f1ef;
+    color: #252B32;
+    height: 800px;
+    width: 20%;
+    margin: 60px auto;
+    text-align: center;
+  }
+
+  .menu > h3 {
+    color: #252B32;
+    text-decoration: underline;
   }
