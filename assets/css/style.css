@@ -489,7 +489,7 @@ footer h2, footer p {
     left: 30%;
     width: 24%;
     padding-top: 20px;
-    background-color: #421E13;
+    /* background-color: #421E13; */
     height: inherit;
   }
 
@@ -497,7 +497,9 @@ footer h2, footer p {
     text-decoration: none;
   }
 
-  
+  #main-select {
+    background-color: #421E13;
+  }
 
   .menu {
     background-color: #f1f1ef;
@@ -520,3 +522,10 @@ footer h2, footer p {
     margin-bottom: 10px;
   }
   
+  #dessert {
+    display: none;
+  }
+
+  #dessert:target {
+    display: block;
+  }
