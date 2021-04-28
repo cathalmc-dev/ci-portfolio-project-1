@@ -493,6 +493,12 @@ footer h2, footer p {
     height: inherit;
   }
 
+  .menu-select a {
+    text-decoration: none;
+  }
+
+  
+
   .menu {
     background-color: #f1f1ef;
     color: #252B32;
