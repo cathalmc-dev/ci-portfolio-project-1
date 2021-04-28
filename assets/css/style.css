@@ -496,13 +496,21 @@ footer h2, footer p {
   .menu {
     background-color: #f1f1ef;
     color: #252B32;
-    height: 800px;
+    height: 760px;
     width: 20%;
     margin: 60px auto;
     text-align: center;
+    padding-top: 20px;
   }
 
   .menu > h3 {
     color: #252B32;
     text-decoration: underline;
+    margin-bottom: 5px;
   }
+
+  .menu p {
+    line-height: 20px;
+    margin-bottom: 10px;
+  }
+  
