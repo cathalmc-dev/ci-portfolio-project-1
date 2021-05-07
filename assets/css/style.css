@@ -497,14 +497,14 @@ footer h2, footer p {
     text-decoration: none;
   }
 
-  #main-select {
+  .menu-select {
     background-color: #421E13;
   }
 
   .menu {
     background-color: #f1f1ef;
     color: #252B32;
-    height: 760px;
+    height: auto;
     width: 20%;
     margin: 60px auto;
     text-align: center;
@@ -519,13 +519,39 @@ footer h2, footer p {
 
   .menu p {
     line-height: 20px;
-    margin-bottom: 10px;
+    margin: 0 10px 10px;
+  }
+
+  .last {
+    padding-bottom: 20px;
+  }
+
+  #main-menu {
+    display: none;
   }
   
   #dessert {
     display: none;
   }
 
+  #main-menu:target {
+    display: block;
+  }
+
   #dessert:target {
     display: block;
   }
+
+  #dessert:target .menu-select :not(dessert-select) {
+    background-color: #252B32;
+  }
+
+  #wine:target {
+    display: block;
+  }
+
+  #early-bird:target {
+    display: block;
+  }
+
+  
