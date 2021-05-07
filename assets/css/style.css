@@ -489,7 +489,6 @@ footer h2, footer p {
     left: 30%;
     width: 24%;
     padding-top: 20px;
-    /* background-color: #421E13; */
     height: inherit;
   }
 
@@ -497,7 +496,7 @@ footer h2, footer p {
     text-decoration: none;
   }
 
-  .menu-select {
+  .menu-select:hover {
     background-color: #421E13;
   }
 
