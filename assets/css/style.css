@@ -500,6 +500,10 @@ footer h2, footer p {
     background-color: #421E13;
   }
 
+  .menu-select:active {
+    background-color: #421E13;
+  }
+
   .menu {
     background-color: #f1f1ef;
     color: #252B32;
@@ -545,6 +549,8 @@ footer h2, footer p {
   #early-bird {
     display: none;
   }
+
+  /* Display corresponding menu when only when it's being targeted */
 
   #main-menu:target {
     display: block;
