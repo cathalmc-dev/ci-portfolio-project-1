@@ -12,29 +12,97 @@
 </head>
 <body>
   <header>
-    <a href="index.html">
-      <img src="assets/images/Logo.png" alt="candlelight bistro logo" id="header-logo">
-    </a>
-    <nav>
-      <ul id="header-nav">
-        <li>
-          <a href="menus.html#main-menu">Menus</a>
-        </li>
-        <li>
-          <a href="reserve.html">Reservations</a>
-        </li>
-        <li>
-          <a href="voucher.html">Voucher</a>
-        </li>
-        <li>
-          <a href="contact.html">Contact</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
+    <header>
+      <h1>
+        <a href="index.html">
+          <img src="assets/images/Logo.png" alt="candlelight bistro logo" id="header-logo">
+        </a>
+      </h1>
+      <nav>
+        <ul id="header-nav-full">
+          <li>
+            <a href="menus.html#main-menu">Menus</a>
+          </li>
+          <li>
+            <a href="reserve.html" class="active">Reservations</a>
+          </li>
+          <li>
+            <a href="voucher.html">Voucher</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+        <div id="header-nav-small">
+          <a href="#modal" class="modal-open">
+            <i class="fas fa-bars"></i>
+          </a>
+        </div>
+        <div class="modal" id="modal">
+          <div class="modal-content">
+            <a href="#" class="modal-close">&times;</a>
+            <ul>
+              <li>
+                <a href="menus.html#main-menu">Menus</a>
+              </li>
+              <li>
+                <a href="reserve.html">Reservations</a>
+              </li>
+              <li>
+                <a href="voucher.html">Voucher</a>
+              </li>
+              <li>
+                <a href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
   <section>Hero image</section>
   <section>About the restaurant</section>
   <section>Gallery</section>
-  <footer>Site footer</footer>
+  <footer id="footer">
+    <div id="footer-bg"></div>
+    <div id="footer-outer">
+      <div id="footer-contact" class="footer-item">
+        <h2>Contact</h2>
+        <p>
+          62 O'Connell Street Upper,<br>North City,<br>Dublin 1
+        </p>
+        <p>
+          <i class="fas fa-phone-alt"></i> +353 86 195 1846
+        </p>
+        <ul class="social-media">
+          <li>
+            <a href="https://facebook.com/">
+              <i class="fab fa-facebook"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://instagram.com/">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div id="footer-hours" class="footer-item">
+        <h2>Open Hours</h2>
+        <p>
+          Wednesday - Saturday<br>From 5.30pm (last orders at 9.45pm)
+        </p>
+        <p>
+          Sunday<br>From 3.30pm (last orders 8.15pm)
+        </p>
+      </div>
+      <div id="footer-logo" class="footer-item">
+        <a href="index.html">
+          <img src="assets/images/Logo.png" alt="Candlelight bistro logo">
+        </a>
+      </div>
+    </div>
+  </footer>
+  <!-- font awesome script -->
+  <script src="https://kit.fontawesome.com/514e452847.js" crossorigin="anonymous"></script>
 </body>
 </html>
