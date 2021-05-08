@@ -533,16 +533,29 @@ footer h2, footer p {
     display: none;
   }
 
+  #wine {
+    display: none;
+  }
+
+  #wine h4 {
+    text-decoration: underline;
+    margin-bottom: 5px;
+  }
+
+  #wine p {
+    margin: 0 10px 15px;
+  }
+
+  #early-bird {
+    display: none;
+  }
+
   #main-menu:target {
     display: block;
   }
 
   #dessert:target {
     display: block;
-  }
-
-  #dessert:target .menu-select :not(dessert-select) {
-    background-color: #252B32;
   }
 
   #wine:target {
