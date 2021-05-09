@@ -517,7 +517,7 @@ footer h2, footer p {
   .menu > h3 {
     color: #252B32;
     text-decoration: underline;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
   }
 
   .menu p {
