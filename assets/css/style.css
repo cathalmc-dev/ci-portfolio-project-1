@@ -481,7 +481,7 @@ footer p {
   /* https://www.freecodecamp.org/news/how-to-center-anything-with-css-align-a-div-text-and-more/ */
   display: flex;
   justify-content: center;
-  margin: -50px auto 20px;
+  margin: -50px auto;
 }
 
 /* menu page */
