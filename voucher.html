@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,6 +11,7 @@
   <link rel="stylesheet" href="assets/css/style.css">
   <title>Candlelight Bistro</title>
 </head>
+
 <body>
   <header>
     <h1>
@@ -59,7 +61,55 @@
     </nav>
   </header>
   <main>
-
+    <h2 class="page-header">Voucher</h2>
+    <form method="POST" action="https://formdump.codeinstitute.net/">
+      <div>
+        <label for="amount">Voucher Amount</label>
+      </div>
+      <div>
+        <select name="amount" id="amount">
+          <option value="10">€10</option>
+          <option value="20">€20</option>
+          <option value="30">€30</option>
+          <option value="40">€40</option>
+          <option value="50" selected>€50</option>
+          <option value="60">€60</option>
+          <option value="70">€70</option>
+          <option value="80">€80</option>
+          <option value="90">€90</option>
+          <option value="100">€100</option>
+          <option value="125">€125</option>
+          <option value="150">€150</option>
+          <option value="175">€175</option>
+          <option value="200">€200</option>
+          <option value="250">€250</option>
+        </select>
+      </div>
+      <div>
+        <label for="recipient">Voucher For (Optional)</label>
+      </div>
+      <div>
+        <input type="text" id="recipient" placeholder="Who the voucher is for">
+      </div>
+      <div>
+        <label for="sender">Voucher From (Optional)</label>
+      </div>
+      <div>
+        <input type="text" id="sender" placeholder="Who the voucher is from">
+      </div>
+      <div>
+        <label for="message">Include a personalised message (optional)</label>
+      </div>
+      <div>
+        <textarea name="message" id="message" placeholder="This message will be added to the voucher"></textarea>
+      </div>
+      <div>
+        <label for="email">Email Address</label>
+      </div>
+      <div>
+        <input type="email" id="email" placeholder="Where you want the voucher to be sent" required>
+      </div>
+    </form>
   </main>
   <footer id="footer">
     <div id="footer-bg"></div>
@@ -104,4 +154,5 @@
   <!-- font awesome script -->
   <script src="https://kit.fontawesome.com/514e452847.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
