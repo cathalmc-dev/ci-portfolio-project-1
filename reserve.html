@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,6 +11,7 @@
   <link rel="stylesheet" href="assets/css/style.css">
   <title>Candlelight Bistro</title>
 </head>
+
 <body>
   <header>
     <h1>
@@ -58,6 +60,75 @@
       </div>
     </nav>
   </header>
+  <main>
+    <h2 class="page-header">Reservations</h2>
+    <form method="post" action="https://formdump.codeinstitute.net/">
+      <div id="res-details">
+        <h3>Reservation Details</h3>
+        <span>
+          <label for="date" class="screen-reader-only">Date</label>
+          <input type="date" id="date" name="date" required class="3-col">
+          <label for="time" class="screen-reader-only">Time</label>
+          <input type="time" id="time" name="time" required class="3-col">
+          <label for="patrons" class="screen-reader-only">Number of Patrons</label>
+          <select name="patrons" id="patrons" class="3-col">
+            <option value="1">1 person</option>
+            <option value="2" selected>2 people</option>
+            <option value="3">3 people</option>
+            <option value="4">4 people</option>
+            <option value="5">5 people</option>
+            <option value="6">6 people</option>
+            <option value="7">7 people</option>
+            <option value="8">8 people</option>
+          </select>
+        </span>
+      </div>
+      <hr>
+      <div id="customer-details">
+        <h3>Your Details</h3>
+        <span>
+          <label for="fname" class="screen-reader-only">First Name</label>
+          <input type="text" id="fname" name="first-name" placeholder="First Name" required class="2-col">
+          <label for="lname" class="screen-reader-only">Last Name</label>
+          <input type="text" id=lname name="last-name" placeholder="Last Name" required class="2-col">
+        </span>
+        <span>
+          <label for="email" class="screen-reader-only"></label>
+          <input type="email" id="email" name="email" placeholder="Email Address" required class="2-col">
+          <label for="phone" class="screen-reader-only"></label>
+          <input type="number" id="number" name="number" placeholder="Phone Number" required class="2-col">
+        </span>
+      </div>
+      <hr>
+      <div id="card-details">
+        <h5>We require a credit/debit card in order to reserve your table. <a href="#">View Cancellation Policy</a></h5>
+        <span>
+          <label for="ccn" class="screen-reader-only">Credit Card Number</label>
+          <!-- https://stackoverflow.com/questions/48534229/what-is-the-correct-input-type-for-credit-card-numbers -->
+          <input type="tel" id="ccn" name="credit-card" inputmode="numeric" pattern="[0-9\s]{13,19}" maxlength="19"
+            placeholder="Card Number">
+          <label for="cc-exp" class="screen-reader-only">Expiry</label>
+          <input type="month" name="cc-expiry" id="cc-exp" value="05/2021">
+          <label for="cvc" class="screen-reader-only">CVC</label>
+          <input type="number" id="cvc" name="cvc" minlength="3" maxlength="4" placeholder="CVC">
+        </span>
+      </div>
+      <hr>
+      <div id="mailing-list">
+        <label for="mailing">Tick to subscribe to our mailing list</label>
+        <input type="checkbox" id="mailing" name="mailing">
+      </div>
+      <hr>
+      <div id="note">
+        <h3>PLEASE NOTE:</h3>
+        <p>We will require your table back 1 hour and 45 minutes after the reservation time. Thank you.</p>
+      </div>
+      <hr>
+      <div>
+        <input type="submit" id="submit-reservation" value="Complete Reservation">
+      </div>
+    </form>
+  </main>
   <footer id="footer">
     <div id="footer-bg"></div>
     <div id="footer-outer">
@@ -101,4 +172,5 @@
   <!-- font awesome script -->
   <script src="https://kit.fontawesome.com/514e452847.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
