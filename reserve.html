@@ -68,9 +68,9 @@
         <legend>Reservation Details</legend>
         <span>
           <label for="date" class="screen-reader-only">Date</label>
-          <input type="date" id="date" name="date" required class="col-3">
+          <input type="date" id="date" name="date" min="2021-05-17" required class="col-3">
           <label for="time" class="screen-reader-only">Time</label>
-          <input type="time" id="time" name="time" required class="col-3">
+          <input type="time" id="time" name="time" min="15:30" max="21:30" required class="col-3">
           <label for="patrons" class="screen-reader-only">Number of Patrons</label>
           <select name="patrons" id="patrons" class="col-3">
             <option value="1">1 person</option>
@@ -111,7 +111,7 @@
         </span>
         <span>
           <label for="cc-exp" class="screen-reader-only">Expiry</label>
-          <input type="month" name="cc-expiry" id="cc-exp" value="05/21" class="col-2">
+          <input type="month" name="cc-expiry" id="cc-exp" min="2021-05" value="2021-05" class="col-2">
           <label for="cvc" class="screen-reader-only">CVC</label>
           <input type="number" id="cvc" name="cvc" minlength="3" maxlength="4" placeholder="CVC" class="col-2">
         </span>
