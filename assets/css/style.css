@@ -7,7 +7,8 @@
 }
 
 html {
-  height: auto;
+  min-height: 100%;
+  position: relative;
 }
 
 body {
@@ -15,6 +16,7 @@ body {
   font-weight: 400;
   color: #f1f1ef;
   background-color: #252B32;
+  margin: 0 0 250px;
 }
 
 /* headings */
@@ -370,10 +372,13 @@ header {
 /* footer */
 
 footer {
-  height: auto;
+  height: 250px;
   background-color: #421E13;
   text-align: center;
   width: 100vw;
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }
 
 footer div {
@@ -475,7 +480,7 @@ footer h2, footer p {
   /* menu page */
 
   #menu-content {
-    padding-top: 50px;
+    padding: 50px 0 5px;
   }
 
   #menu-select-container {
@@ -568,4 +573,62 @@ footer h2, footer p {
     display: block;
   }
 
-  
+  /* Forms */
+
+  #voucher-header {
+    margin: 175px 0 20px;
+  }
+
+  form {
+    width: 35%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  form h4 {
+    text-align: left;
+    margin:20px auto 5px;
+    padding-left: 20%;
+    font-size: 110%;
+  }
+
+  input {
+    padding: 10px;
+    width: 57%;
+    background-color: #f1f1ef;
+    color: #252B32;
+    font-size: 110%;
+  }
+
+  select {
+    padding: 5px;
+    width: 60%;
+    background-color: #f1f1ef;
+    color: #252B32;
+    font-size: 150%;
+  }
+
+  textarea {
+    padding: 10px;
+    width: 57%;
+    background-color: #f1f1ef;
+    color: #252B32;
+    font-size: 110%;
+    font-family: Roboto-light, sans-serif;
+  }
+
+  input[type=submit] {
+    padding: 5px;
+    width: 60%;
+    background-color: #421E13;
+    color: #f1f1ef;
+    font-size: 150%;
+    margin: 30px auto 20px;
+  }
+
+  #voucher-info {
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    padding-bottom: 40px;
+  }

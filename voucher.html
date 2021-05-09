@@ -61,10 +61,12 @@
     </nav>
   </header>
   <main>
-    <h2 class="page-header">Voucher</h2>
+    <h2 class="page-header" id="voucher-header">Voucher</h2>
     <form method="POST" action="https://formdump.codeinstitute.net/">
       <div>
-        <label for="amount">Voucher Amount</label>
+        <label for="amount">
+          <h4>Voucher Amount</h4>
+        </label>
       </div>
       <div>
         <select name="amount" id="amount">
@@ -85,31 +87,40 @@
           <option value="250">€250</option>
         </select>
       </div>
-      <div>
-        <label for="recipient">Voucher For (Optional)</label>
-      </div>
-      <div>
+      <div class="form-element">
+        <label for="recipient">
+          <h4>Voucher For (Optional)</h4>
+        </label>
         <input type="text" id="recipient" placeholder="Who the voucher is for">
       </div>
-      <div>
-        <label for="sender">Voucher From (Optional)</label>
-      </div>
-      <div>
+      <div class="form-element">
+        <label for="sender">
+          <h4>Voucher From (Optional)</h4>
+        </label>
         <input type="text" id="sender" placeholder="Who the voucher is from">
       </div>
-      <div>
-        <label for="message">Include a personalised message (optional)</label>
+      <div class="form-element">
+        <label for="message">
+          <h4>Include a personalised message (optional)</h4>
+        </label>
+        <textarea name="message" id="message" placeholder="This message will be added to the voucher"
+          rows="4"></textarea>
       </div>
-      <div>
-        <textarea name="message" id="message" placeholder="This message will be added to the voucher"></textarea>
-      </div>
-      <div>
-        <label for="email">Email Address</label>
-      </div>
-      <div>
+      <div class="form-element">
+        <label for="email">
+          <h4>Email Address</h4>
+        </label>
         <input type="email" id="email" placeholder="Where you want the voucher to be sent" required>
       </div>
+      <div class="form-element">
+        <input type="submit" value="Buy Voucher Now">
+      </div>
     </form>
+    <div id="voucher-info">
+      <p>Once purchased the voucher will be emailed to you within a half hour. Simply print it, then present it for redemption.
+        Our vouchers don't expire, so just keep it safe! And only share it with the people you wish to use it.
+      </p>
+    </div>
   </main>
   <footer id="footer">
     <div id="footer-bg"></div>
