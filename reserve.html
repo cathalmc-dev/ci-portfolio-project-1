@@ -97,7 +97,7 @@
           <label for="email" class="screen-reader-only"></label>
           <input type="email" id="email" name="email" placeholder="Email Address" required class="col-2">
           <label for="phone" class="screen-reader-only"></label>
-          <input type="number" id="number" name="number" placeholder="Phone Number" required class="col-2">
+          <input type="number" id="number" name="number" pattern="[0-9\s]{10,16}" placeholder="Phone Number" required class="col-2">
         </span>
       </fieldset>
       <hr>
@@ -107,7 +107,7 @@
           <label for="ccn" class="screen-reader-only">Credit Card Number</label>
           <!-- https://stackoverflow.com/questions/48534229/what-is-the-correct-input-type-for-credit-card-numbers -->
           <input type="tel" id="ccn" name="credit-card" inputmode="numeric" pattern="[0-9\s]{13,19}" maxlength="19"
-            placeholder="Card Number">
+            placeholder="Card Number" required>
         </span>
         <span>
           <label for="cc-exp" class="screen-reader-only">Expiry</label>
