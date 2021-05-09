@@ -21,7 +21,8 @@ body {
 
 /* headings */
 
-h1, h2 {
+h1,
+h2 {
   font-family: Roboto, sans-serif;
   text-transform: uppercase;
   letter-spacing: 4px;
@@ -71,7 +72,9 @@ header {
   padding-top: 40px;
 }
 
-#header-logo, #header-nav-full, #header-nav-small {
+#header-logo,
+#header-nav-full,
+#header-nav-small {
   line-height: 75px;
 }
 
@@ -115,7 +118,7 @@ header {
 /* modal code example used - https://www.youtube.com/watch?v=8AUtM5lqUZM */
 
 .modal {
-  background-color: rgba(0,0,0, .8);
+  background-color: rgba(0, 0, 0, .8);
   width: 100%;
   height: 100vh;
   position: absolute;
@@ -192,12 +195,12 @@ header {
 }
 
 @media screen and (max-width: 650px) {
-.modal-content {
-  height: 30vh;
- }
+  .modal-content {
+    height: 30vh;
+  }
 
   .modal-close {
-  top: .2em
+    top: .2em
   }
 
   .modal-content ul {
@@ -262,7 +265,8 @@ header {
   }
 }
 
-#tagline h2, h3 {
+#tagline h2,
+h3 {
   text-align: center;
   color: #f1f1ef;
   font-family: Montserrat, sans-serif;
@@ -297,10 +301,11 @@ header {
 
 /* creates the bobbing animation for the chevron */
 @keyframes chevron-bob {
-  from{
+  from {
     bottom: 40px;
   }
-  to{
+
+  to {
     bottom: 30px;
   }
 }
@@ -347,7 +352,7 @@ header {
   margin: 50px auto 0;
 }
 
-#photos > img {
+#photos>img {
   width: 100%;
   height: 45%;
   margin-bottom: 10px;
@@ -386,7 +391,8 @@ footer div {
   margin: 0 auto;
 }
 
-footer h2, footer p {
+footer h2,
+footer p {
   margin-bottom: 10px;
 }
 
@@ -423,6 +429,7 @@ footer h2, footer p {
   list-style-type: none;
   color: #f1f1ef;
 }
+
 .social-media a {
   text-decoration: none;
   color: inherit;
@@ -443,192 +450,288 @@ footer h2, footer p {
 
 /* contact page */
 
-  #contact-text {
-    padding: 50px 33%;
-    text-align: left;
-    line-height: 30px;
-  }
+#contact-text {
+  padding: 50px 33%;
+  text-align: left;
+  line-height: 30px;
+}
 
-  .page-header {
-    text-align: center;
-    font-size: 200%;
-    margin-top: 150px;
-    text-align: center;
-  }
+.page-header {
+  text-align: center;
+  font-size: 200%;
+  margin-top: 150px;
+  text-align: center;
+}
 
-  #contact-text h3 {
-    margin: 10px 0;
-    text-align: left;
-    font-size: 150%;
-  }
+#contact-text h3 {
+  margin: 10px 0;
+  text-align: left;
+  font-size: 150%;
+}
 
-  #contact-text p {
-    margin-bottom: 10px;
-  }
+#contact-text p {
+  margin-bottom: 10px;
+}
 
-  .covid {
-    text-transform: uppercase;
-  }
+.covid {
+  text-transform: uppercase;
+}
 
-  #iframe {
-    /* https://www.freecodecamp.org/news/how-to-center-anything-with-css-align-a-div-text-and-more/ */
-    display: flex;
-    justify-content: center;
-    margin: -50px auto 20px;
-  }
+#iframe {
+  /* https://www.freecodecamp.org/news/how-to-center-anything-with-css-align-a-div-text-and-more/ */
+  display: flex;
+  justify-content: center;
+  margin: -50px auto 20px;
+}
 
-  /* menu page */
+/* menu page */
 
-  #menu-content {
-    padding: 50px 0 5px;
-  }
+#menu-content {
+  padding: 50px 0 5px;
+}
 
-  #menu-select-container {
-    width: 40%;
-    margin: 30px auto 0;
-    height: 50px;
-  }
+#menu-select-container {
+  width: 40%;
+  margin: 30px auto 0;
+  height: 50px;
+}
 
-  .menu-select {
-    display: inline-block;
-    left: 30%;
-    width: 24%;
-    padding-top: 20px;
-    height: inherit;
-  }
+.menu-select {
+  display: inline-block;
+  left: 30%;
+  width: 24%;
+  padding-top: 20px;
+  height: inherit;
+}
 
-  .menu-select a {
-    text-decoration: none;
-  }
+.menu-select a {
+  text-decoration: none;
+}
 
-  .menu-select:hover {
-    background-color: #421E13;
-  }
+.menu-select:hover {
+  background-color: #421E13;
+}
 
-  .menu-select:active {
-    background-color: #421E13;
-  }
+.menu-select:active {
+  background-color: #421E13;
+}
 
-  .menu {
-    background-color: #f1f1ef;
-    color: #252B32;
-    height: auto;
-    width: 35%;
-    margin: 60px auto;
-    text-align: center;
-    padding: 20px;
-  }
+.menu {
+  background-color: #f1f1ef;
+  color: #252B32;
+  height: auto;
+  width: 35%;
+  margin: 60px auto;
+  text-align: center;
+  padding: 20px;
+}
 
-  .menu > h3 {
-    color: #252B32;
-    text-decoration: underline;
-    margin-bottom: 10px;
-  }
+.menu>h3 {
+  color: #252B32;
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
 
-  .menu p {
-    line-height: 20px;
-    margin: 0 80px 10px;
-  }
+.menu p {
+  line-height: 20px;
+  margin: 0 80px 10px;
+}
 
-  #main-menu {
-    display: none;
-  }
-  
-  #dessert {
-    display: none;
-  }
+#main-menu {
+  display: none;
+}
 
-  #wine {
-    display: none;
-  }
+#dessert {
+  display: none;
+}
 
-  #wine h4 {
-    text-decoration: underline;
-    margin-bottom: 5px;
-  }
+#wine {
+  display: none;
+}
 
-  #wine p {
-    margin: 0 10px 15px;
-  }
+#wine h4 {
+  text-decoration: underline;
+  margin-bottom: 5px;
+}
 
-  #early-bird {
-    display: none;
-  }
+#wine p {
+  margin: 0 10px 15px;
+}
 
-  /* Display corresponding menu when only when it's being targeted */
+#early-bird {
+  display: none;
+}
 
-  #main-menu:target {
-    display: block;
-  }
+/* Display corresponding menu when only when it's being targeted */
 
-  #dessert:target {
-    display: block;
-  }
+#main-menu:target {
+  display: block;
+}
 
-  #wine:target {
-    display: block;
-  }
+#dessert:target {
+  display: block;
+}
 
-  #early-bird:target {
-    display: block;
-  }
+#wine:target {
+  display: block;
+}
 
-  /* Forms */
+#early-bird:target {
+  display: block;
+}
 
-  #voucher-header {
-    margin: 175px 0 20px;
-  }
+/* Forms */
 
-  form {
-    width: 35%;
-    margin: 0 auto;
-    text-align: center;
-  }
+#voucher-header {
+  margin: 175px 0 20px;
+}
 
-  form h4 {
-    text-align: left;
-    margin:20px auto 5px;
-    padding-left: 20%;
-    font-size: 110%;
-  }
+#voucher-form {
+  width: 35%;
+  margin: 0 auto;
+  text-align: center;
+}
 
-  input {
-    padding: 10px;
-    width: 57%;
-    background-color: #f1f1ef;
-    color: #252B32;
-    font-size: 110%;
-  }
+form h3, form h4 {
+  text-align: left;
+  margin: 20px auto 5px;
+  padding-left: 20%;
+  font-size: 110%;
+}
 
-  select {
-    padding: 5px;
-    width: 60%;
-    background-color: #f1f1ef;
-    color: #252B32;
-    font-size: 150%;
-  }
+input {
+  padding: 10px;
+  width: 57%;
+  background-color: #f1f1ef;
+  color: #252B32;
+  font-size: 110%;
+}
 
-  textarea {
-    padding: 10px;
-    width: 57%;
-    background-color: #f1f1ef;
-    color: #252B32;
-    font-size: 110%;
-    font-family: Roboto-light, sans-serif;
-  }
+select {
+  padding: 5px;
+  width: 60%;
+  background-color: #f1f1ef;
+  color: #252B32;
+  font-size: 150%;
+}
 
-  input[type=submit] {
-    padding: 5px;
-    width: 60%;
-    background-color: #421E13;
-    color: #f1f1ef;
-    font-size: 150%;
-    margin: 30px auto 20px;
-  }
+textarea {
+  padding: 10px;
+  width: 57%;
+  background-color: #f1f1ef;
+  color: #252B32;
+  font-size: 110%;
+  font-family: Roboto-light, sans-serif;
+}
 
-  #voucher-info {
-    text-align: center;
-    width: 40%;
-    margin: 0 auto;
-    padding-bottom: 40px;
-  }
+input[type=submit] {
+  padding: 5px;
+  width: 60%;
+  background-color: #421E13;
+  color: #f1f1ef;
+  font-size: 150%;
+  margin: 30px auto 20px;
+}
+
+#voucher-info {
+  text-align: center;
+  width: 40%;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+
+/* https://webaim.org/techniques/css/invisiblecontent/ */
+.screen-reader-only {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+#reserve-header {
+  padding: 20px 0 20px;
+}
+
+#reserve-form {
+  width: 30%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.col-3 {
+  width: 26%;
+  margin: 5px;
+}
+
+.col-2 {
+  width: 40%;
+  margin: 5px;
+}
+
+form hr {
+ border-top: 1px solid #f1f1ef;
+ margin: 10px auto;
+ width: 90%;
+}
+
+#patrons {
+  vertical-align: sub;
+}
+
+legend {
+  font-size: 150%;
+  text-align: left;
+  margin-left: 1em;
+}
+
+#ccn {
+  width: 86%;
+}
+
+h5 {
+  margin: 0 auto 10px;
+  font-size: 75%;
+}
+
+/* https://css-tricks.com/snippets/css/turn-off-number-input-spinners/ */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+h5 a {
+  color: #f1f1ef;
+}
+
+#cvc {
+  vertical-align: middle;
+}
+
+#mail-label {
+  float: right;
+  margin-right: 40%;
+}
+
+#mailing {
+  float: left;
+  margin-left: 45px;
+  width: auto;
+}
+
+#note {
+  background-color: #f1f1ef;
+  margin: -5px auto 10px;
+  width: 90%;
+  color: #252B32;
+  font-size: 90%;
+  padding-bottom: 5px;
+}
+
+#note h3 {
+  color: #252B32;
+  margin-left: -70px;
+  padding-top: 5px;
+}
