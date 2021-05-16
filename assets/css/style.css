@@ -378,10 +378,10 @@ h3 {
 
 footer {
   height: 250px;
-  background-color: #421E13;
   text-align: center;
-  width: 100vw;
+  width: 100%;
   position: absolute;
+  background-color: #421E13;
   left: 0;
   bottom: 0;
 }
@@ -391,8 +391,7 @@ footer div {
   margin: 0 auto;
 }
 
-footer h2,
-footer p {
+footer h2, footer p {
   margin-bottom: 10px;
 }
 
@@ -402,13 +401,10 @@ footer p {
   display: inline-block;
 }
 
-#footer-bg {
-  width: 100vw;
-}
-
 #footer-outer {
   height: 250px;
   width: 65%;
+  background-color: #421E13;
 }
 
 #footer-contact {
@@ -438,6 +434,8 @@ footer p {
 @media screen and (max-width: 750px) {
   #footer-outer {
     height: 650px;
+    background-color: #421E13;
+    width: 100%;
   }
 
   .footer-item {
@@ -481,7 +479,7 @@ footer p {
   /* https://www.freecodecamp.org/news/how-to-center-anything-with-css-align-a-div-text-and-more/ */
   display: flex;
   justify-content: center;
-  margin: -50px auto;
+  margin-top: -50px;
 }
 
 /* menu page */

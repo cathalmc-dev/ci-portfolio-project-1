@@ -89,15 +89,15 @@
         <legend>Your Details</legend>
         <span>
           <label for="fname" class="screen-reader-only">First Name</label>
-          <input type="text" id="fname" name="first-name" placeholder="First Name" required class="col-2">
+          <input type="text" id="fname" name="first-name" placeholder="First Name" required class="col-2" pattern="[^0-9]+">
           <label for="lname" class="screen-reader-only">Last Name</label>
-          <input type="text" id=lname name="last-name" placeholder="Last Name" required class="col-2">
+          <input type="text" id=lname name="last-name" placeholder="Last Name" required class="col-2" pattern="[^0-9]+">
         </span>
         <span>
           <label for="email" class="screen-reader-only"></label>
           <input type="email" id="email" name="email" placeholder="Email Address" required class="col-2">
           <label for="phone" class="screen-reader-only"></label>
-          <input type="number" id="number" name="number" pattern="[0-9\s]{10,16}" placeholder="Phone Number" required class="col-2">
+          <input type="tel" id="number" name="number" pattern="[0-9\s]{10,16}" max="999999999999999" placeholder="Phone Number" required class="col-2">
         </span>
       </fieldset>
       <hr>
