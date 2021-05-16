@@ -183,6 +183,10 @@ header {
 }
 
 @media screen and (max-width: 850px) {
+  .modal-content {
+    height: 35vh;
+  }
+
   .modal-content ul {
     font-size: 150%;
   }
@@ -482,6 +486,12 @@ footer h2, footer p {
   margin-top: -50px;
 }
 
+@media screen and (max-width: 900px) {
+  #contact-text {
+    padding: 50px 15%;
+  }
+}
+
 /* menu page */
 
 #menu-content {
@@ -577,6 +587,25 @@ footer h2, footer p {
 #early-bird:target {
   display: block;
 }
+@media screen and (max-width: 950px) {
+  .menu {
+    width: 60%;
+  }
+
+  .menu p {
+    margin: 0 auto;
+  }
+
+  #menu-select-container {
+    height: auto;
+  }
+
+  .menu-select {
+    padding: 10px 25px;
+    justify-content: center;
+    margin: 0 auto;
+  }
+}
 
 /* Forms */
 
@@ -585,7 +614,7 @@ footer h2, footer p {
 }
 
 #voucher-form {
-  width: 35%;
+  width: 65%;
   margin: 0 auto;
   text-align: center;
 }
@@ -747,4 +776,18 @@ h5 a {
 #cancel p {
   margin: 1vh;
   font-size: larger;
+}
+
+@media screen and (max-width: 900px) {
+  #voucher-form {
+    width: 85%;
+  }
+
+  input {
+    font-size: 90%;
+  }
+
+  textarea {
+    font-size: 90%;
+  }
 }
