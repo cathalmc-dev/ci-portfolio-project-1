@@ -735,3 +735,18 @@ h5 a {
   margin-left: -70px;
   padding-top: 5px;
 }
+
+#cancel {
+  background-color: #f1f1ef;
+  width: 40%;
+  height: 50%;
+  color: #252B32;
+  margin: 20% auto;
+  padding: 10px;
+  text-align: left;
+}
+
+#cancel p {
+  margin: 1vh;
+  font-size: larger;
+}
