@@ -462,7 +462,6 @@ footer h2, footer p {
   text-align: center;
   font-size: 200%;
   margin-top: 150px;
-  text-align: center;
 }
 
 #contact-text h3 {
@@ -509,7 +508,7 @@ footer h2, footer p {
   left: 30%;
   width: 24%;
   padding-top: 20px;
-  height: inherit;
+  height: auto;
 }
 
 .menu-select a {
@@ -601,9 +600,19 @@ footer h2, footer p {
   }
 
   .menu-select {
-    padding: 10px 25px;
-    justify-content: center;
-    margin: 0 auto;
+    padding: 10px 30px;
+    margin: 2%;
+    background-color: #421E13;
+    border: 1px solid #F1f1ef;
+    width: 80%;
+    line-height: 45px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #menu-select-container {
+    margin-left: 25%;
+  }
   }
 }
 
@@ -737,14 +746,19 @@ h5 a {
   vertical-align: middle;
 }
 
-#mail-label {
+/* #mail-label {
   float: right;
   margin-right: 40%;
-}
-
+} */
+/* 
 #mailing {
   float: left;
   margin-left: 45px;
+  width: auto;
+} */
+
+#mailing {
+  margin: 0 50%;
   width: auto;
 }
 
@@ -768,14 +782,20 @@ h5 a {
   width: 40%;
   height: 50%;
   color: #252B32;
-  margin: 20% auto;
-  padding: 10px;
+  margin: 200px auto;
+  padding: 50px;
   text-align: left;
 }
 
 #cancel p {
   margin: 1vh;
   font-size: larger;
+}
+
+@media screen and (max-width: 1400px) {
+  input[type=submit] {
+    font-size: 100%;
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -789,5 +809,31 @@ h5 a {
 
   textarea {
     font-size: 90%;
+  }
+
+  #reserve-form {
+    width: 95%;
+  }
+
+  .col-3 {
+    width: 50%;
+  }
+
+  #note h3 {
+    text-align: center;
+  }
+  
+  #mail-label {
+    margin-right: 40px;
+  }
+
+  #cancel {
+    width: 85%;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #ccn {
+    width: 50%;
   }
 }
