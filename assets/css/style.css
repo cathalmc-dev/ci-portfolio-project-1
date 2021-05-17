@@ -850,3 +850,10 @@ h5 a {
   margin: 1vh;
   font-size: larger;
 }
+
+@media screen and (max-width: 600px) {
+  #cancel {
+    width: 80%;
+    padding: 20px;
+  }
+}
