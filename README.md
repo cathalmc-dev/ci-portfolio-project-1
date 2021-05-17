@@ -1,45 +1,35 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
-Welcome cathalmc-dev,
-
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
-
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
+#Portfolio Project 1 - Candlelight Bistro
 ---
+Live Website
+GitHub Repository
+##About
+---
+This website is for a ficticious Dublin-based restaurant. It offers an intimate atmosphere and quality food. It includes all the features you would expect a website of this kind to have. It's both usable and responsive while still looking elegant.
+##Table of Contents
+---
+##User Experience (UX)
+---
+###User Stories
+* As any visitor to the website
+  1. I want to easily understand the purpose of the website at first glance.
+  2. I want the flow of information and interaction feedback to be clear and unambiguous.
 
-Happy coding!
+* As a prospective patron of the restaurant
+  1. I want to be able to view all the choices of food and drink.
+  2. I want to know where the restaurant is located.
+  3. I want to know the contact information for the business should I need it.
+  4. I want to be able to make a reservation.
+  5. I want to know about any logistical details such as dress code or cancellation policy.
+
+* As someone wanting to treat friends or family to dinner
+  1. I want to be able to purchase a voucher for them
+  2. I want to be able to personalise it and choose where it is delivered.
+
+* As a returning/regular visitor to this website
+  1. I want to be able to access and use this website from any one of my devices.
+  2. I want the ability to navigate between pages to be readily accessible at all times.
+
+##Design
+* Colour Scheme
+  * As one of the main goals of this website is to convey a sense of the elegant and intimate atmosphere of the restaurant I wanted to keep the colour scheme simple, and towards the warmer side of the spectrum. When I was in the design phase I came across an image that I decided would work well as the hero image and I match the rest of my colours accordingly. I only used 3 main colours throughout the website. An off-white (#F1F1EF), and dark navy (#252B32) and a warm brown (#421E13). These colour choices allowed for high contrast while not being as bland to the user as simple black and white.
+  ! [Image] (./assets/images/colour-scheme.png/)
