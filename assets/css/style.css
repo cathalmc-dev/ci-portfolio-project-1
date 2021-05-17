@@ -656,7 +656,8 @@ select {
   width: 60%;
   background-color: #f1f1ef;
   color: #252B32;
-  font-size: 150%;
+  font-size: 120%;
+  height: 45px;
 }
 
 textarea {
@@ -754,16 +755,9 @@ h5 a {
   vertical-align: middle;
 }
 
-/* #mail-label {
-  float: right;
-  margin-right: 40%;
-} */
-/* 
-#mailing {
-  float: left;
-  margin-left: 45px;
-  width: auto;
-} */
+#mail-label {
+  margin-top: -5px;
+}
 
 #mailing {
   margin: 0 50%;
@@ -806,6 +800,12 @@ h5 a {
   }
 }
 
+@media screen and (max-width: 1200px) {
+  #reserve-form {
+    width: 95%;
+  }
+}
+
 @media screen and (max-width: 900px) {
   #voucher-form {
     width: 85%;
@@ -817,10 +817,6 @@ h5 a {
 
   textarea {
     font-size: 90%;
-  }
-
-  #reserve-form {
-    width: 95%;
   }
 
   .col-3 {
