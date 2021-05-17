@@ -438,6 +438,7 @@ footer p {
   line-height: 30px;
 }
 
+/* Styling for all main page headers */
 .page-header {
   text-align: center;
   font-size: 200%;
@@ -460,12 +461,14 @@ footer p {
 }
 
 #iframe {
+  /* Was unable to get the iframe centered but used the below guide which introduced me to the justify-content tool */
   /* https://www.freecodecamp.org/news/how-to-center-anything-with-css-align-a-div-text-and-more/ */
   display: flex;
   justify-content: center;
   margin-top: -50px;
 }
 
+/* Makes better use of screen real estate on smaller devices */
 @media screen and (max-width: 900px) {
   #contact-text {
     padding: 50px 15%;
@@ -473,7 +476,6 @@ footer p {
 }
 
 /* menu page */
-
 #menu-content {
   padding: 50px 0 5px;
 }
@@ -484,12 +486,19 @@ footer p {
   height: 50px;
 }
 
+h3 {
+  color: #f1f1ef;
+}
+
 .menu-select {
   display: inline-block;
   left: 30%;
   width: 24%;
   padding-top: 20px;
   height: auto;
+  text-align: center;
+  line-height: 25px;
+  padding-bottom: 20px;
 }
 
 .menu-select a {
@@ -514,7 +523,7 @@ footer p {
   padding: 20px;
 }
 
-.menu>h3 {
+.menu h3 {
   color: #252B32;
   text-decoration: underline;
   margin-bottom: 10px;
@@ -525,25 +534,15 @@ footer p {
   margin: 0 80px 10px;
 }
 
+/* Set all menus to be hidden by default */
 #main-menu {
   display: none;
 }
-
 #dessert {
   display: none;
 }
-
 #wine {
   display: none;
-}
-
-#wine h4 {
-  text-decoration: underline;
-  margin-bottom: 5px;
-}
-
-#wine p {
-  margin: 0 10px 15px;
 }
 
 #early-bird {
@@ -551,7 +550,6 @@ footer p {
 }
 
 /* Display corresponding menu when only when it's being targeted */
-
 #main-menu:target {
   display: block;
 }
@@ -568,6 +566,17 @@ footer p {
   display: block;
 }
 
+/* Specific styling for the wine menu */
+#wine h4 {
+  text-decoration: underline;
+  margin-bottom: 5px;
+}
+
+#wine p {
+  margin: 0 10px 15px;
+}
+
+/* Resize menu display for smaller screen sizes */
 @media screen and (max-width: 950px) {
   .menu {
     width: 60%;
@@ -598,7 +607,7 @@ footer p {
 }
 }
 
-/* Forms */
+/* Voucher and Reservation Forms */
 
 #voucher-header {
   margin: 175px 0 20px;
@@ -667,6 +676,7 @@ input[type=submit] {
   padding-bottom: 40px;
 }
 
+/* Hide the form labels as they are redundant with the inclusion of the placeholder text but keep them tied to the corresponding field for accessibility by screen readers */
 /* https://webaim.org/techniques/css/invisiblecontent/ */
 .screen-reader-only {
   position: absolute;
@@ -722,6 +732,7 @@ h5 {
   font-size: 75%;
 }
 
+/* Remove number field spinner arrows from the forms */
 /* https://css-tricks.com/snippets/css/turn-off-number-input-spinners/ */
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
@@ -761,21 +772,7 @@ h5 a {
   padding-top: 5px;
 }
 
-#cancel {
-  background-color: #f1f1ef;
-  width: 40%;
-  height: 50%;
-  color: #252B32;
-  margin: 200px auto;
-  padding: 50px;
-  text-align: left;
-}
-
-#cancel p {
-  margin: 1vh;
-  font-size: larger;
-}
-
+/* Resize form items are different screen sizes for visual purposes */
 @media screen and (max-width: 1400px) {
   input[type=submit] {
     font-size: 100%;
@@ -822,4 +819,20 @@ h5 a {
   #ccn {
     width: 50%;
   }
+}
+
+/* Cancellation page */
+#cancel {
+  background-color: #f1f1ef;
+  width: 40%;
+  height: 50%;
+  color: #252B32;
+  margin: 200px auto;
+  padding: 50px;
+  text-align: left;
+}
+
+#cancel p {
+  margin: 1vh;
+  font-size: larger;
 }
