@@ -1,12 +1,16 @@
 # Portfolio Project 1 - Candlelight Bistro
 
-Live Website
-GitHub Repository
+[Live Website](https://cathalmc-dev.github.io/ci-portfolio-project-1/index.html)
+[GitHub Repository](https://github.com/cathalmc-dev/ci-portfolio-project-1)
 ## About
 
 This website is for a ficticious Dublin-based restaurant. It offers an intimate atmosphere and quality food. It includes all the features you would expect a website of this kind to have. It's both usable and responsive while still looking elegant.
 ## Table of Contents
-
+[User Experience (UX)](#user-experience-(ux))
+[Features](#features)
+[Testing](#testing)
+[Deployment](#deployment)
+[Credits](#credits)
 ## User Experience (UX)
 
 ### User Stories
@@ -37,10 +41,10 @@ This website is for a ficticious Dublin-based restaurant. It offers an intimate 
 
 * Typography
   * The main font I used is a sans-serif font called Montserrat with sans-serif as the backup. It's easy to read and has a sleek look that fits nicely with the asthetic I wanted to give the website.
-  <img src="./assets/images/readme-images/montserrat.png" height="80px" />
+  <img src="./assets/images/readme-images/montserrat.png" height="40px" />
 
   * The secondary font I used for headings and titles was Roboto which is a bolder font, helping it to be more impactful.
-  <img src="./assets/images/readme-images/roboto.png" height="100px" />
+  <img src="./assets/images/readme-images/roboto.png" height="50px" />
 
 * Imagery
   * Images on this website need to entice the viewer and help convert their visit into a booking for the business. At the same time I had to make sure that the pictures didn't clash with the colour scheme. I kept the images to the home page because they are a big driving force behind such a sale. Doing so made each of the other pages more utilitarian but allows the advantage of a more consistent design across the pages. I used royalty free images on this website.
