@@ -38,8 +38,9 @@ This website is for a ficticious Dublin-based restaurant. It offers an intimate 
 * Typography
   * The main font I used is a sans-serif font called Montserrat with sans-serif as the backup. It's easy to read and has a sleek look that fits nicely with the asthetic I wanted to give the website.
   <img src="./assets/images/readme-images/montserrat.png" height="80px" />
+
   * The secondary font I used for headings and titles was Roboto which is a bolder font, helping it to be more impactful.
-  <img src="./assets/images/readme-images/roboto.png" height="120px" />
+  <img src="./assets/images/readme-images/roboto.png" height="100px" />
 
 * Imagery
   * Images on this website need to entice the viewer and help convert their visit into a booking for the business. At the same time I had to make sure that the pictures didn't clash with the colour scheme. I kept the images to the home page because they are a big driving force behind such a sale. Doing so made each of the other pages more utilitarian but allows the advantage of a more consistent design across the pages. I used royalty free images on this website.
@@ -122,14 +123,15 @@ This website is for a ficticious Dublin-based restaurant. It offers an intimate 
 * Menu
   * Only the currently selected menu is visible to reduce the amount of scrolling needed by the user in order to navigate between them.
 ### CSS3 Validator - Pass
-TO BE FIXED!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+No errors were returned when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fcathalmc-dev.github.io%2Fci-portfolio-project-1%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 ### HTML5 Validator
-  * Known Issues - The errors related to the 
-  * Landing Page - Pass - Results
-  * Menu Page - Pass - Results
-  * Reservations Page - Results
-  * Voucher Page - Pass - Results
-  * Contact Page - Pass - Results
+  * Known Issue - Warning on the index page for no heading in the gallery section. As it is a photos only section it may be ignored.
+  * Landing Page - Pass - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcathalmc-dev.github.io%2Fci-portfolio-project-1%2Findex.html)
+  * Menu Page - Pass - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcathalmc-dev.github.io%2Fci-portfolio-project-1%2Fmenus.html)
+  * Reservations Page - Pass - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcathalmc-dev.github.io%2Fci-portfolio-project-1%2Freserve.html)
+  * Cancellation Page - Pass - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcathalmc-dev.github.io%2Fci-portfolio-project-1%2Fcancellation.html)
+  * Voucher Page - Pass - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcathalmc-dev.github.io%2Fci-portfolio-project-1%2Fvoucher.html)
+  * Contact Page - Pass - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcathalmc-dev.github.io%2Fci-portfolio-project-1%2Fcontact.html)
 ### Unfixed Bugs
 * Index Page - The about text section overflow is not working correctly. Some lines wrap while others do not. I have set the overflow to scroll so that the content is still accessible but as this is poor UX I aim to fix it.
 * Menu Page - Upon clicking a menu selector the page jumps down. This is due to the default position of all the menus being lower on the page but hidden by default. I toyed around with the idea of making the selectors buttons and using the focus psuedo-class instead but that would have caused an issue where if the button was no longer the focus then the menu would disappear. The easist solution without a complete redesign will likely be some JavaScript.
