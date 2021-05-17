@@ -33,13 +33,13 @@ This website is for a ficticious Dublin-based restaurant. It offers an intimate 
 * Colour Scheme
   * As one of the main goals of this website is to convey a sense of the elegant and intimate atmosphere of the restaurant I wanted to keep the colour scheme simple, and towards the warmer side of the spectrum. When I was in the design phase I came across an image that I decided would work well as the hero image and I match the rest of my colours accordingly. I only used 3 main colours throughout the website. An off-white (#F1F1EF), and dark navy (#252B32) and a warm brown (#421E13). These colour choices allowed for high contrast while not being as bland to the user as simple black and white.
   
-    <img src="./assets/images/readme-images/colour-scheme.png" height="100px" />
+    <img src="./assets/images/readme-images/colour-scheme.png" height="150px" />
 
 * Typography
   * The main font I used is a sans-serif font called Montserrat with sans-serif as the backup. It's easy to read and has a sleek look that fits nicely with the asthetic I wanted to give the website.
-  <img src="./assets/images/readme-images/montserrat.png" height="20px" />
+  <img src="./assets/images/readme-images/montserrat.png" height="80px" />
   * The secondary font I used for headings and titles was Roboto which is a bolder font, helping it to be more impactful.
-  <img src="./assets/images/readme-images/roboto.png" height="20px" />
+  <img src="./assets/images/readme-images/roboto.png" height="120px" />
 
 * Imagery
   * Images on this website need to entice the viewer and help convert their visit into a booking for the business. At the same time I had to make sure that the pictures didn't clash with the colour scheme. I kept the images to the home page because they are a big driving force behind such a sale. Doing so made each of the other pages more utilitarian but allows the advantage of a more consistent design across the pages. I used royalty free images on this website.
@@ -47,11 +47,11 @@ This website is for a ficticious Dublin-based restaurant. It offers an intimate 
 * Mockups
   * I created desktop mockups of the website in Figma. For the tablet and mobile views I simply condensed the content to suit. In hindsight, better preparation at this stage would have helped a great deal as I often found myself pondering over how best to convert the desktop page  into a mobile friendly version.
 
-  <img src="./assets/images/readme-images/figma-index.png" height="100px" />
-  <img src="./assets/images/readme-images/figma-menu.png" height="100px" />
-  <img src="./assets/images/readme-images/figma-reserve.png" height="100px" />
-  <img src="./assets/images/readme-images/figma-voucher.png" height="100px" />
-  <img src="./assets/images/readme-images/figma-contact.png" height="100px" />
+  <img src="./assets/images/readme-images/figma-index.png" height="500px" />
+  <img src="./assets/images/readme-images/figma-menu.png" height="400px" />
+  <img src="./assets/images/readme-images/figma-reserve.png" height="400px" />
+  <img src="./assets/images/readme-images/figma-voucher.png" height="400px" />
+  <img src="./assets/images/readme-images/figma-contact.png" height="400px" />
 
 ## Features
 ### Current Features
