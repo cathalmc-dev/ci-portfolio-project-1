@@ -1,15 +1,15 @@
 # Portfolio Project 1 - Candlelight Bistro
 
-[Live Website](https://cathalmc-dev.github.io/ci-portfolio-project-1/index.html)
+[Live Website](https://cathalmc-dev.github.io/ci-portfolio-project-1/index.html)  
 [GitHub Repository](https://github.com/cathalmc-dev/ci-portfolio-project-1)
 ## About
 
 This website is for a ficticious Dublin-based restaurant. It offers an intimate atmosphere and quality food. It includes all the features you would expect a website of this kind to have. It's both usable and responsive while still looking elegant.
 ## Table of Contents
-[User Experience (UX)](#user-experience-(ux))
-[Features](#features)
-[Testing](#testing)
-[Deployment](#deployment)
+[User Experience (UX)](#user-experience-(ux))  
+[Features](#features)  
+[Testing](#testing)  
+[Deployment](#deployment)  
 [Credits](#credits)
 ## User Experience (UX)
 
@@ -52,11 +52,11 @@ This website is for a ficticious Dublin-based restaurant. It offers an intimate 
 * Mockups
   * I created desktop mockups of the website in Figma. For the tablet and mobile views I simply condensed the content to suit. In hindsight, better preparation at this stage would have helped a great deal as I often found myself pondering over how best to convert the desktop page  into a mobile friendly version.
 
-  <img src="./assets/images/readme-images/figma-index.png" height="500px" />
-  <img src="./assets/images/readme-images/figma-menu.png" height="400px" />
-  <img src="./assets/images/readme-images/figma-reserve.png" height="400px" />
-  <img src="./assets/images/readme-images/figma-voucher.png" height="400px" />
-  <img src="./assets/images/readme-images/figma-contact.png" height="400px" />
+  <img src="./assets/images/readme-images/figma-index.png" height="600px" />
+  <img src="./assets/images/readme-images/figma-menu.png" height="500px" />
+  <img src="./assets/images/readme-images/figma-reserve.png" height="500px" />
+  <img src="./assets/images/readme-images/figma-voucher.png" height="500px" />
+  <img src="./assets/images/readme-images/figma-contact.png" height="500px" />
 
 ## Features
 ### Current Features
