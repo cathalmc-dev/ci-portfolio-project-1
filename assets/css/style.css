@@ -605,12 +605,11 @@ h3 {
     margin-left: 25%;
   }
 }
-}
 
 /* Voucher and Reservation Forms */
 
 #voucher-header {
-  margin: 175px 0 20px;
+  padding: 20px 0 20px;
 }
 
 #voucher-form {
@@ -822,12 +821,17 @@ h5 a {
 }
 
 /* Cancellation page */
+
+#cancel-header {
+  padding: 20px 0 20px;
+}
+
 #cancel {
   background-color: #f1f1ef;
   width: 40%;
   height: 50%;
   color: #252B32;
-  margin: 200px auto;
+  margin: 20px auto;
   padding: 50px;
   text-align: left;
 }
