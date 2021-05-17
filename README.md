@@ -52,12 +52,12 @@ This website is for a ficticious Dublin-based restaurant. It offers an intimate 
 * Mockups
   * I created desktop mockups of the website in Figma. For the tablet and mobile views I simply condensed the content to suit. In hindsight, better preparation at this stage would have helped a great deal as I often found myself pondering over how best to convert the desktop page  into a mobile friendly version.
 
-  <img src="./assets/images/readme-images/figma-index.png" height="600px" />
-  <img src="./assets/images/readme-images/figma-menu.png" height="500px" />
-  <img src="./assets/images/readme-images/figma-reserve.png" height="500px" />
-  <img src="./assets/images/readme-images/figma-voucher.png" height="500px" />
-  <img src="./assets/images/readme-images/figma-contact.png" height="500px" />
-
+  [Index Page](https://imgur.com/Wkz6bKq.png)  
+  [Menu Page](https://i.imgur.com/nv1CjDr.png)  
+  [Reservation Page](https://i.imgur.com/4cHEtyr.png)  
+  [Voucher Page](https://i.imgur.com/ftEZ1co.png)  
+  [Contact Page](https://i.imgur.com/ci4fb3R.png)
+  
 ## Features
 ### Current Features
 #### Common Features Across All Pages
