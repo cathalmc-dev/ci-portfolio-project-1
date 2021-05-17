@@ -378,8 +378,13 @@ footer {
   bottom: 0;
 }
 
+#footer-outer {
+  width: 78%;
+}
+
 footer div {
   margin: 0 auto;
+  width: 33%;
 }
 
 footer h2,
