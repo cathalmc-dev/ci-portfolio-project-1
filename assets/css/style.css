@@ -628,11 +628,19 @@ footer h2, footer p {
   text-align: center;
 }
 
-form h3, form h4 {
+form h3 {
   text-align: left;
   margin: 20px auto 5px;
   padding-left: 20%;
   font-size: 110%;
+}
+
+label {
+  text-align: left;
+  margin: 20px auto 5px;
+  padding-left: 20%;
+  font-size: 110%;
+  display: block;
 }
 
 input {

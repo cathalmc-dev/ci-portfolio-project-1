@@ -97,7 +97,7 @@
           <label for="email" class="screen-reader-only"></label>
           <input type="email" id="email" name="email" placeholder="Email Address" required class="col-2">
           <label for="phone" class="screen-reader-only"></label>
-          <input type="tel" id="number" name="number" pattern="[0-9\s]{10,16}" max="999999999999999" placeholder="Phone Number" required class="col-2">
+          <input type="tel" id="phone" name="number" pattern="[0-9\s]{10,16}" maxlength="15" placeholder="Phone Number" required class="col-2">
         </span>
       </fieldset>
       <hr>
@@ -105,15 +105,14 @@
         <h5>We require a credit/debit card in order to reserve your table. <a href="cancellation.html">View Cancellation Policy</a></h5>
         <span>
           <label for="ccn" class="screen-reader-only">Credit Card Number</label>
-          <!-- https://stackoverflow.com/questions/48534229/what-is-the-correct-input-type-for-credit-card-numbers -->
-          <input type="tel" id="ccn" name="credit-card" inputmode="numeric" pattern="[0-9\s]{13,19}" maxlength="19"
+          <input type="tel" id="ccn" name="credit-card" pattern="[0-9\s]{13,19}" maxlength="19"
             placeholder="Card Number" required>
         </span>
         <span>
           <label for="cc-exp" class="screen-reader-only">Expiry</label>
           <input type="month" name="cc-expiry" id="cc-exp" min="2021-05" value="2021-05" class="col-2">
           <label for="cvc" class="screen-reader-only">CVC</label>
-          <input type="number" id="cvc" name="cvc" minlength="3" maxlength="4" placeholder="CVC" class="col-2">
+          <input type="number" id="cvc" name="cvc" min="100" max="9999" placeholder="CVC" class="col-2">
         </span>
       </fieldset>
       <hr>
@@ -145,12 +144,12 @@
         </p>
         <ul class="social-media">
           <li>
-            <a href="https://facebook.com/">
+            <a href="https://facebook.com/" target="_blank">
               <i class="fab fa-facebook"></i>
             </a>
           </li>
           <li>
-            <a href="https://instagram.com/">
+            <a href="https://instagram.com/" target="_blank">
               <i class="fab fa-instagram"></i>
             </a>
           </li>
