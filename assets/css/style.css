@@ -214,6 +214,7 @@ header {
 
   .modal-close {
     right: .3em;
+    top: -10px;
   }
 }
 
