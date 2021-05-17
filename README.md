@@ -32,4 +32,6 @@ This website is for a ficticious Dublin-based restaurant. It offers an intimate 
 ##Design
 * Colour Scheme
   * As one of the main goals of this website is to convey a sense of the elegant and intimate atmosphere of the restaurant I wanted to keep the colour scheme simple, and towards the warmer side of the spectrum. When I was in the design phase I came across an image that I decided would work well as the hero image and I match the rest of my colours accordingly. I only used 3 main colours throughout the website. An off-white (#F1F1EF), and dark navy (#252B32) and a warm brown (#421E13). These colour choices allowed for high contrast while not being as bland to the user as simple black and white.
-  ! [Image] (./assets/images/colour-scheme.png/)
+  
+    <img src-"./assets/images/readme-images/colour-scheme.png" height="20px" />
+
