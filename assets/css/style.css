@@ -19,16 +19,15 @@ body {
   margin: 0 0 250px;
 }
 
-/* headings */
+/* Headings */
 
-h1,
-h2 {
+h1, h2 {
   font-family: Roboto, sans-serif;
   text-transform: uppercase;
   letter-spacing: 4px;
-  color: #f1f1ef
 }
 
+/* Fixed header */
 header {
   height: 150px;
   border-bottom: 1px solid #f1f1ef;
@@ -37,24 +36,20 @@ header {
   top: 0;
   width: 100%;
   z-index: 2;
+  line-height: 75px;
 }
 
+/* Transparent background to allow hero image to be seen */
 #index-header {
-  height: 150px;
-  border-bottom: 1px solid #f1f1ef;
   background-color: rgba(0, 0, 0, 0.5);
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 2;
 }
 
 #header-logo {
   float: left;
-  margin-left: 30px;
-  margin-top: 5px;
+  margin: 5px 30px;
 }
 
+/* Resize header logo for small phones */
 @media screen and (max-width: 400px) {
   #header-logo {
     height: 100px;
@@ -63,19 +58,13 @@ header {
   }
 }
 
-/* navigation links */
-
+/* Navigation links */
+/* Desktop header */
 #header-nav-full {
   font-size: 150%;
   letter-spacing: 4px;
   float: right;
   padding-top: 40px;
-}
-
-#header-logo,
-#header-nav-full,
-#header-nav-small {
-  line-height: 75px;
 }
 
 #header-nav-full li {
@@ -93,6 +82,7 @@ header {
   border-bottom: 1px solid #f1f1ef;
 }
 
+/* Current page will be underlined in nav bar */
 .active {
   border-bottom: 1px solid #f1f1ef;
 }
@@ -105,7 +95,8 @@ header {
   right: 40px;
 }
 
-@media screen and (max-width: 950px) {
+/* Switches the visible nav bar below 1000px screen width */
+@media screen and (max-width: 1000px) {
   #header-nav-full {
     visibility: hidden;
   }
@@ -115,8 +106,8 @@ header {
   }
 }
 
-/* modal code example used - https://www.youtube.com/watch?v=8AUtM5lqUZM */
-
+/* Modal menu to replace nav bar at smaller screen sizes */
+/* Modal code example used - https://www.youtube.com/watch?v=8AUtM5lqUZM */
 .modal {
   background-color: rgba(0, 0, 0, .8);
   width: 100%;
@@ -181,7 +172,9 @@ header {
   text-align: center;
   font-size: 200%;
 }
+/* End of code written with aid from modal tutorial */
 
+/* Series of modal box model adjustments to make menu more visually appealing */
 @media screen and (max-width: 850px) {
   .modal-content {
     height: 35vh;
@@ -222,7 +215,6 @@ header {
   .modal-close {
     right: .3em;
   }
-
 }
 
 .modal-open {
@@ -231,12 +223,11 @@ header {
   color: #f1f1ef;
 }
 
-/* hero image */
+/* Hero image */
 
 #hero-outer {
   height: 950px;
   width: 100%;
-  /* margin-top: -150px; */
   position: relative;
   z-index: 1;
 }
@@ -247,32 +238,32 @@ header {
   background: url("../images/hero-image.jpg") no-repeat center center;
 }
 
+/* Floating tagline box on hero image */
 #tagline {
   font-size: 130%;
   font-family: Roboto, sans-serif;
   text-transform: uppercase;
-  letter-spacing: 4px;
-
+  text-align: center;
   width: 300px;
   height: 150px;
-
   position: absolute;
   bottom: 200px;
   right: 150px;
-
   background-color: rgba(0, 0, 0, 0.7);
 }
 
+/* Realigns the tagline at smaller screen size */
 @media screen and (max-width: 450px) {
   #tagline {
     left: 0;
   }
 }
 
-#tagline h2,
-h3 {
-  text-align: center;
-  color: #f1f1ef;
+#tagline h2 {
+  margin-top: 25px;
+}
+
+#tagline h3 {
   font-family: Montserrat, sans-serif;
 }
 
@@ -283,11 +274,7 @@ h3 {
   margin: 2px auto;
 }
 
-#tagline h2 {
-  font-family: Roboto, sans-serif;
-  margin-top: 25px;
-}
-
+/* Chevron to indicate the user should scroll down the index page */
 #chevron {
   font-size: 350%;
   position: absolute;
@@ -295,7 +282,7 @@ h3 {
   bottom: 40px;
   color: #f1f1ef;
 
-  /* animates the bobbing effect for the chevron*/
+  /* Animates the bobbing effect for the chevron*/
   animation-name: chevron-bob;
   animation-delay: 2s;
   animation-duration: 0.5s;
@@ -303,7 +290,7 @@ h3 {
   animation-direction: alternate;
 }
 
-/* creates the bobbing animation for the chevron */
+/* Choreographs the bobbing animation for the chevron */
 @keyframes chevron-bob {
   from {
     bottom: 40px;
@@ -314,13 +301,14 @@ h3 {
   }
 }
 
-/* about section */
+/* About section - Describes the establishment */
 
 #about {
   height: auto;
   max-width: 60%;
   margin: 50px auto;
   overflow: auto;
+  line-height: 30px;
 }
 
 #about h2 {
@@ -332,7 +320,6 @@ h3 {
 }
 
 #about p {
-  line-height: 30px;
   margin-bottom: 5px;
   padding: 0 10px;
 }
@@ -344,7 +331,7 @@ h3 {
   margin: 10px 0;
 }
 
-/* gallery section of index page */
+/* Gallery section of index page */
 
 #photos {
   clear: both;
@@ -373,6 +360,7 @@ h3 {
     column-count: 1;
   }
 
+  /* Hides photos of secondary importance on smaller devices */
   .extra-photo {
     display: none;
   }
@@ -391,11 +379,11 @@ footer {
 }
 
 footer div {
-  width: 33%;
   margin: 0 auto;
 }
 
-footer h2, footer p {
+footer h2,
+footer p {
   margin-bottom: 10px;
 }
 
@@ -403,12 +391,6 @@ footer h2, footer p {
   width: 33%;
   margin: 50px auto 0;
   display: inline-block;
-}
-
-#footer-outer {
-  height: 250px;
-  width: 65%;
-  background-color: #421E13;
 }
 
 #footer-contact {
@@ -420,14 +402,11 @@ footer h2, footer p {
   margin-top: 40px;
 }
 
-.social-media {
-  font-size: 180%;
-}
-
 .social-media li {
   display: inline;
   list-style-type: none;
   color: #f1f1ef;
+  font-size: 180%;
 }
 
 .social-media a {
@@ -435,6 +414,7 @@ footer h2, footer p {
   color: inherit;
 }
 
+/* Stacks footer sections on top of each other on smaller devices */
 @media screen and (max-width: 750px) {
   #footer-outer {
     height: 650px;
@@ -450,7 +430,7 @@ footer h2, footer p {
   }
 }
 
-/* contact page */
+/* Contact page */
 
 #contact-text {
   padding: 50px 33%;
@@ -587,6 +567,7 @@ footer h2, footer p {
 #early-bird:target {
   display: block;
 }
+
 @media screen and (max-width: 950px) {
   .menu {
     width: 60%;
@@ -614,7 +595,7 @@ footer h2, footer p {
   #menu-select-container {
     margin-left: 25%;
   }
-  }
+}
 }
 
 /* Forms */
@@ -717,9 +698,9 @@ input[type=submit] {
 }
 
 form hr {
- border-top: 1px solid #f1f1ef;
- margin: 10px auto;
- width: 90%;
+  border-top: 1px solid #f1f1ef;
+  margin: 10px auto;
+  width: 90%;
 }
 
 #patrons {
@@ -742,10 +723,10 @@ h5 {
 }
 
 /* https://css-tricks.com/snippets/css/turn-off-number-input-spinners/ */
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
-  -webkit-appearance: none; 
-  margin: 0; 
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 h5 a {
@@ -827,7 +808,7 @@ h5 a {
   #note h3 {
     text-align: center;
   }
-  
+
   #mail-label {
     margin-right: 40px;
   }
