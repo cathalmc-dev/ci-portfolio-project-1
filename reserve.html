@@ -20,6 +20,7 @@
         <img src="assets/images/Logo.png" alt="candlelight bistro logo" id="header-logo">
       </a>
     </h1>
+    <!-- Main nav links -->
     <nav>
       <ul id="header-nav-full">
         <li>
@@ -35,11 +36,13 @@
           <a href="contact.html">Contact</a>
         </li>
       </ul>
+      <!-- Small nav bar -->
       <div id="header-nav-small">
         <a href="#modal" class="modal-open">
           <i class="fas fa-bars"></i>
         </a>
       </div>
+      <!-- Modal for navigation below certain screen width -->
       <div class="modal" id="modal">
         <div class="modal-content">
           <a href="#" class="modal-close">&times;</a>
@@ -61,9 +64,11 @@
       </div>
     </nav>
   </header>
+  <!-- Reservation Form -->
   <main>
     <h2 class="page-header" id="reserve-header">Reservations</h2>
     <form method="post" action="https://formdump.codeinstitute.net/" id="reserve-form">
+      <!-- Reservation Details -->
       <fieldset id="res-details">
         <legend>Reservation Details</legend>
         <span>
@@ -85,11 +90,13 @@
         </span>
       </fieldset>
       <hr>
+      <!-- Customer Details -->
       <fieldset id="customer-details">
         <legend>Your Details</legend>
         <span>
           <label for="fname" class="screen-reader-only">First Name</label>
-          <input type="text" id="fname" name="first-name" placeholder="First Name" required class="col-2" pattern="[^0-9]+">
+          <input type="text" id="fname" name="first-name" placeholder="First Name" required class="col-2"
+            pattern="[^0-9]+">
           <label for="lname" class="screen-reader-only">Last Name</label>
           <input type="text" id=lname name="last-name" placeholder="Last Name" required class="col-2" pattern="[^0-9]+">
         </span>
@@ -97,12 +104,15 @@
           <label for="email" class="screen-reader-only"></label>
           <input type="email" id="email" name="email" placeholder="Email Address" required class="col-2">
           <label for="phone" class="screen-reader-only"></label>
-          <input type="tel" id="phone" name="number" pattern="[0-9\s]{10,16}" maxlength="15" placeholder="Phone Number" required class="col-2">
+          <input type="tel" id="phone" name="number" pattern="[0-9\s]{10,16}" maxlength="15" placeholder="Phone Number"
+            required class="col-2">
         </span>
       </fieldset>
       <hr>
+      <!-- Credit Card Details -->
       <fieldset id="card-details">
-        <h5>We require a credit/debit card in order to reserve your table. <a href="cancellation.html">View Cancellation Policy</a></h5>
+        <h5>We require a credit/debit card in order to reserve your table. <a href="cancellation.html">View Cancellation
+            Policy</a></h5>
         <span>
           <label for="ccn" class="screen-reader-only">Credit Card Number</label>
           <input type="tel" id="ccn" name="credit-card" pattern="[0-9\s]{13,19}" maxlength="19"
@@ -116,11 +126,13 @@
         </span>
       </fieldset>
       <hr>
+      <!-- Mailing list subscription option -->
       <fieldset id="mailing-list">
-          <label for="mailing" id="mail-label">Tick to subscribe to our mailing list</label>
-          <input type="checkbox" id="mailing" name="mailing">
+        <label for="mailing" id="mail-label">Tick to subscribe to our mailing list</label>
+        <input type="checkbox" id="mailing" name="mailing">
       </fieldset>
       <hr>
+      <!-- Note informing customer of max length of time they can dine for -->
       <div id="note">
         <h3>PLEASE NOTE:</h3>
         <p>We will require your table back 1 hour and 45 minutes after the reservation time. Thank you.</p>
@@ -131,6 +143,7 @@
       </div>
     </form>
   </main>
+  <!-- Footer -->
   <footer id="footer">
     <div id="footer-bg"></div>
     <div id="footer-outer">

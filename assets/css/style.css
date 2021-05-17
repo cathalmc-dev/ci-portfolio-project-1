@@ -476,6 +476,7 @@ footer h2, footer p {
 
 .covid {
   text-transform: uppercase;
+  font-size: 130%;
 }
 
 #iframe {
